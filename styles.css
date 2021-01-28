@@ -54,12 +54,13 @@ img {
 	height: 48px;
 }
 
-.links a:hover, img:hover {
-	opacity: 35%;
+.links a:hover, img:hover, #img-section a:hover {
+	opacity: 60%;
 }
 
 #img-section {
 	width: 100%;
+	margin-bottom: 32px;
 }
 
 #img-section p {
@@ -67,18 +68,19 @@ img {
 }
 
 #googleslideslink {
-	padding-bottom: 2px;
-	color: black !important;
-	letter-spacing: 4% !important;
+	padding: 6px 12px;
+	border-radius: 4px;
+	font-size: 13px;
+	color: white !important;
+	text-decoration: none;
+	background-color: #77D;
+	letter-spacing: .01em !important;
 }
 
 #img-section a:visited {
 	color: #555;
 }
 
-#img-section a:hover {
-	opacity: 35%;
-}
 
 @media screen and (max-width: 1330px) {
 }
