@@ -54,7 +54,7 @@ img {
 	height: 48px;
 }
 
-.links a:hover, img:hover, #img-section a:hover {
+.links a:hover, img:hover, #portfolio:hover {
 	opacity: 60%;
 }
 
@@ -79,6 +79,15 @@ img {
 
 #img-section a:visited {
 	color: #555;
+}
+
+#resume {
+	opacity: 35%;
+	margin-left: 8px;
+}
+
+#resume:hover {
+	opacity: 100% !important;
 }
 
 
