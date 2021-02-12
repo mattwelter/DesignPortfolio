@@ -13,6 +13,10 @@
 body {
 	margin: 0 auto;
 	font-family: 'DM Sans Regular', "Arial", sans-serif;
+	display: inline-grid;
+	grid-template-columns: 425px 425px;
+	grid-template-rows: auto;
+	background-color: #fafafa;
 }
 
 h1 {
@@ -22,17 +26,26 @@ h1 {
 	font-weight: 500;
 	line-height: 26px;
 	letter-spacing: -0.02em;
-	text-align: center;
+	text-align: left;
 }
 
 #blurb {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 22px;
+	line-height: 26px;
 	letter-spacing: 0em;
-	text-align: center;
+	text-align: left;
 	width: 100%;
+}
+
+.link, .link:visited {
+	text-decoration: underline;
+	color: black;
+}
+
+.link:hover {
+	opacity: 35%;
 }
 
 .links {
@@ -41,7 +54,7 @@ h1 {
 	font-weight: 400;
 	line-height: 18px;
 	letter-spacing: 0em;
-	text-align: center;
+	text-align: left;
 }
 
 .links a, .links a:visited {
@@ -61,6 +74,7 @@ img {
 #img-section {
 	width: 100%;
 	margin-bottom: 32px;
+	text-align: left;
 }
 
 #img-section p {
@@ -91,11 +105,27 @@ img {
 }
 
 
-@media screen and (max-width: 1330px) {
+#photo_of_me, #photo_of_me:hover {
+	object-fit: cover;
+	height: 380px;
+	width: 380px;
+	margin-top: 240px;
+	border-radius: 50px;
+	opacity: 100%;
+	filter: saturate(1.4);
 }
-@media screen and (max-width: 1100px) {
-}
-@media screen and (max-width: 840px) {
+
+
+@media screen and (max-width: 992px) {
+	#photo_of_me {
+		display: none;
+	}
+	#blurb, .links, h1, #img-section {
+		text-align: center;
+	}
+	body {
+		grid-template-columns: none;
+	}
 }
 @media screen and (max-width: 640px) {
 }
