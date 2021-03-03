@@ -16,7 +16,12 @@ body {
 	display: inline-grid;
 	grid-template-columns: 425px 425px;
 	grid-template-rows: auto;
-	background-color: #fafafa;
+	background-color: #E5E5E5;
+	/*background-image: url("background2.png");
+	background-position: center center;
+	background-size: cover;
+	height: 2000px;
+	vertical-align: center;*/
 }
 
 h1 {
@@ -115,6 +120,17 @@ img {
 	filter: saturate(1.4);
 }
 
+#figma_bg, #figma_bg:hover {
+	height: 650px;
+	margin: 0 auto;
+	z-index: -999;
+	display: block;
+	position: absolute;
+	margin-left: -100px;
+	margin-top: 104px;
+	opacity: 100%;
+}
+
 
 @media screen and (max-width: 992px) {
 	#photo_of_me {
@@ -125,6 +141,10 @@ img {
 	}
 	body {
 		grid-template-columns: none;
+			background-color: #fafafa;
+	}
+	#figma_bg {
+		display: none;
 	}
 }
 @media screen and (max-width: 640px) {
@@ -137,7 +157,7 @@ img {
 	}
 
 	h1 {
-		font-size: 20px;
+		font-size: 28px;
 	}
 
 	#blurb {
