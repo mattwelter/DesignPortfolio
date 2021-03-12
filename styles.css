@@ -83,6 +83,17 @@ h1 {
 	width: 100%;
 }
 
+#blurb-mobile {
+	display: none;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: center;
+	width: 330px;
+}
+
 .link, .link:visited {
 	text-decoration: underline;
 	color: black;
@@ -245,10 +256,9 @@ th, .t-info {
 }
 @media screen and (max-width: 500px) {
 	#nav {
-		display: none;
-	}
-	#info-section {
-		margin-left: -181px;
+		height: 48px;
+		font-size: 14px;
+		margin-left: 12px;
 	}
 	#list-of-info {
 		margin-top: 400px;
@@ -262,18 +272,28 @@ th, .t-info {
 		font-size: 28px;
 	}
 
-	#blurb {
-		line-height: 22px;
-		font-size: 14px;
-	}
-
 	#links {
 		font-size: 12px;
 	}
 
 }
-@media screen and (max-width: 376px) {
-
+@media screen and (max-width: 410px) {
+	#info-section {
+		margin-left: -167px;
+	}
+	#blurb {
+		display: none;
+	}
+	#blurb-mobile {
+		display: inline-block;
+		margin-top: -2px;
+	}
+	.table-star {
+		height: 18px;
+	    margin-bottom: -2px;
+	    margin-left: -24px;
+	    padding-right: 4px;
+	}
 }
 @media screen and (max-width: 340px) {
 }
