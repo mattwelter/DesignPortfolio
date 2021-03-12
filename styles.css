@@ -258,6 +258,8 @@ th, .t-info {
 	#nav {
 		height: 48px;
 		font-size: 14px;
+	}
+	ul li {
 		margin-left: 12px;
 	}
 	#list-of-info {
