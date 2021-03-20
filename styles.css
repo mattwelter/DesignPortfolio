@@ -270,6 +270,23 @@ th, .t-info {
     box-shadow: 0px 18px 24px 0px rgba(0, 0, 0, 0.10);
 }
 
+#viewongithub {
+	border-top: 1px solid lightgrey;
+	padding-top: 28px;
+	margin: 0 auto;
+	width: 375px;
+	margin-bottom: 40px;
+}
+
+#viewongithub a, #viewongithub a:visited {
+	color: black;
+	opacity: .35;
+}
+
+#viewongithub a:hover {
+	opacity: 1;
+}
+
 
 
 
@@ -328,6 +345,10 @@ th, .t-info {
 	#second-section {
 		margin-top: 1790px;
 	}
+	#viewongithub {
+		width: 250px;
+		margin-top: 2185px;
+	}
 }
 @media screen and (max-width: 640px) {
 	#nav {
@@ -363,7 +384,9 @@ th, .t-info {
 	#second-section {
 		margin-top: 1732px;
 	}
-
+	#viewongithub {
+		margin-top: 2125px;
+	}
 }
 @media screen and (max-width: 410px) {
 	#info-section {
