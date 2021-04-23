@@ -5,7 +5,7 @@
 }
 
 #wrapper {
-	width: 850px;
+	width: 500px;
 	margin: 0 auto;
 	margin-top: 175px;
 }
@@ -18,9 +18,9 @@ body {
 	margin: 0 auto;
 	font-family: 'DM Sans Regular', "Arial", sans-serif;
 	display: inline-grid;
-	grid-template-columns: 425px 425px;
-	grid-template-rows: auto;
-	background-color: #fafafa;
+	grid-template-columns: none;
+	background-color: #1C1D21;
+	color: white;
 	/*background-image: url("background2.png");
 	background-position: center center;
 	background-size: cover;
@@ -39,23 +39,6 @@ body {
 	left: 0px;
 }
 
-#nav section {
-	width: 875px;
-	margin: 0 auto;
-}
-
-#nav img {
-	float: left;
-	display: inline-block;
-	height: 20px;
-	margin-top: 18px;
-}
-
-#nav ul {
-	display: inline-block;
-	float: right;
-}
-
 ul {
 	padding: 0;
 	margin: 0 auto;
@@ -65,14 +48,14 @@ ul {
 ul li {
 	display: inline-block;
 	margin-left: 18px;
-	margin-top: 17px;
+	margin-top: 14px;
 }
 
 ul li a, ul li a:visited {
 	color: white;
-	/*text-decoration: none;
+	text-decoration: none;
 	border-bottom: solid 1px white;
-	padding-bottom: 1px;*/
+	padding-bottom: 1px;
 }
 
 h1 {
@@ -82,22 +65,32 @@ h1 {
 	font-weight: 500;
 	line-height: 26px;
 	letter-spacing: -0.02em;
-	text-align: left;
+	text-align: center;
 }
 
 #info-section {
-	/*position: absolute;*/
+	position: absolute;
 	display: inline-block;
-	margin-bottom: 100px;
+	margin-left: -222px;
+	margin-top: 100px;
+	color: #DDE0E4;
+}
+
+#message {
+	height: 100px;
+	position: absolute;
+	margin-left: -123px;
+	margin-top: -84px;
 }
 
 #blurb {
+	font-family: 'Archia Regular', "DM Sans Regular", sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 26px;
 	letter-spacing: 0em;
-	text-align: left;
+	text-align: center;
 	width: 100%;
 }
 
@@ -112,9 +105,14 @@ h1 {
 	width: 330px;
 }
 
+#icons img {
+	height: 28px;
+	padding: 0px 6px;
+}
+
 .link, .link:visited {
 	text-decoration: underline;
-	color: black;
+	color: white;
 }
 
 .link:hover {
@@ -127,11 +125,11 @@ h1 {
 	font-weight: 400;
 	line-height: 18px;
 	letter-spacing: 0em;
-	text-align: left;
+	text-align: center;
 }
 
 .links a, .links a:visited {
-	color: #3300FF;
+	color: white;
 }
 
 img {
@@ -147,7 +145,7 @@ img {
 #img-section {
 	width: 100%;
 	margin-bottom: 32px;
-	text-align: left;
+	text-align: center;
 }
 
 #img-section p {
@@ -165,30 +163,22 @@ img {
 }
 
 #img-section a:visited {
-	color: #555;
+	color: white;
 }
 
 #resume {
-	opacity: 35%;
+	opacity: 100%;
 	margin-left: 8px;
-}
-
-#resume:hover {
-	opacity: 100% !important;
 }
 
 
 #photo_of_me, #photo_of_me:hover {
 	object-fit: cover;
-	height: 305px;
-	width: 305px;
-	margin-right: 50px;
-	margin-top: 16px;
+	height: 75px;
 	opacity: 100%;
-	/*filter: saturate(1.4);*/
-	position: relative;
-	display: inline-block;
-	margin-left: 25px;
+	position: absolute;
+	margin-left: -37px;
+	margin-top: 20px;
 }
 
 
@@ -215,7 +205,7 @@ img {
 }
 
 th, .t-info {
-	width: 325px;
+	width: 275px;
 }
 
 .t-head, .t-row, .t-info {
@@ -224,15 +214,18 @@ th, .t-info {
 
 .t-link {
 	text-align: right;
-	color: #3300FF;
+	color: white;
 	display: inline-block;
 	margin-bottom: 0px;
 }
 
 
-.list-of-info {
+#list-of-info {
     margin: 0 auto;
-    display: flex;
+    display: inline-block;
+    position: absolute;
+    margin-top: 475px;
+    margin-left: -165px;
 }
 
 .table-star {
@@ -248,149 +241,60 @@ th, .t-info {
 	padding-bottom: 12px;
 }
 
-#reachme {
-	margin-left: 150px;
-}
 
-#uxwork {
-	margin-left: 124px;
-	margin-top: 24px;
-}
-
-#personalprojects {
-	margin-top: -280px;
-}
-
-#workhistory table {
-	padding: 24px 24px 0px 24px;
-    width: 400px;
-    border-radius: 12px;
-    background: white;
-    margin-left: -24px;
-    box-shadow: 0px 18px 24px 0px rgba(0, 0, 0, 0.10);
-}
-
-#viewongithub {
-	border-top: 1px solid lightgrey;
-	padding-top: 28px;
-	margin: 0 auto;
-	width: 375px;
-	margin-bottom: 40px;
-}
-
-#viewongithub a, #viewongithub a:visited {
-	color: black;
-	opacity: .35;
-}
-
-#viewongithub a:hover {
-	opacity: 1;
-}
 
 
 
 
 @media screen and (max-width: 992px) {
-	#nav section {
-		width: 100%;
-	}
-	#wrapper {
-		width: 500px;
-	}
-	#nav img {
-		margin-left: 50px;
-	}
-
-	#nav ul {
-		margin-right: 50px;
-	}
-	.list-of-info {
-	    position: absolute;
-	    margin-top: 450px;
-	    margin-left: -165px;
-	}
-	th, .t-info {
-		width: 275px;
-	}
-	#reachme, #uxwork {
-		margin-left: 0px;
-	}
-	.list-of-info {
-	    display: inline-block;
-	}
-	#photo_of_me {
-		display: none;
-	}
 	#blurb, .links, h1, #img-section {
 		text-align: center;
 	}
 	body {
 		grid-template-columns: none;
-		background-color: #fafafa;
+		background-color: #1D1F28;
 	}
 	#info-section {
-		position: absolute;
-		margin-left: -205px;
-	}
-	#personalprojects {
-		margin-top: 0px;
-	}
-	#workhistory table {
-		padding: 0px;
-	    width: 325px;
-	    background: #fafafa;
-	    margin-left: 0px;
-	    box-shadow: none;
-	}
-	#second-section {
-		margin-top: 1790px;
-	}
-	#viewongithub {
-		width: 250px;
-		margin-top: 2185px;
+		margin-left: -222px;
 	}
 }
 @media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 500px) {
 	#nav {
 		height: 48px;
 		font-size: 14px;
 	}
-	#nav ul {
-		display: none;
-	}
-	#nav img {
-		margin-top: 14px;
-		margin-left: 0px;
-		float: none;
-	}
-}
-@media screen and (max-width: 500px) {
 	ul li {
 		margin-left: 12px;
 	}
-	.list-of-info {
-		margin-top: 400px;
+	#list-of-info {
+		margin-top: 450px;
 	}
 	#wrapper {
 		width: 100%;
 		margin-top: 100px;
 	}
+
 	h1 {
 		font-size: 28px;
 	}
+
 	#links {
 		font-size: 12px;
 	}
-	#second-section {
-		margin-top: 1732px;
-	}
-	#viewongithub {
-		margin-top: 2125px;
-	}
+
 }
 @media screen and (max-width: 410px) {
 	#info-section {
 		margin-left: -167px;
+		margin-top: 130px;
+	}
+	#message {
+		margin-top: -68px;
+	}
+	#photo_of_me {
+		margin-top: 30px;
 	}
 	#blurb {
 		display: none;
@@ -455,4 +359,42 @@ font-family: 'DM Sans Bold Italic';
 font-style: normal;
 font-weight: normal;
 src: local('DM Sans Bold Italic'), url('DMSans-BoldItalic.woff') format('woff');
+}
+
+
+
+
+@font-face {
+font-family: 'Archia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Archia Regular'), url('archia-regular.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Archia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Archia Regular'), url('archia-regular.eot') format('eot');
+}
+
+@font-face {
+font-family: 'Archia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Archia Regular'), url('archia-regular.otf') format('otf');
+}
+
+@font-face {
+font-family: 'Archia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Archia Regular'), url('archia-regular.woff2') format('woff2');
+}
+
+@font-face {
+font-family: 'Archia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Archia Regular'), url('archia-regular.ttf') format('truetype');
 }
