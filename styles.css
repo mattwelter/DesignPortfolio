@@ -72,7 +72,7 @@ h1 {
 	position: absolute;
 	display: inline-block;
 	margin-left: -222px;
-	margin-top: 100px;
+	margin-top: 80px;
 	color: #DDE0E4;
 }
 
@@ -81,6 +81,10 @@ h1 {
 	position: absolute;
 	margin-left: -123px;
 	margin-top: -84px;
+}
+
+#message:hover {
+	opacity: 100%;
 }
 
 #blurb {
@@ -178,7 +182,7 @@ img {
 	opacity: 100%;
 	position: absolute;
 	margin-left: -37px;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 
@@ -224,7 +228,7 @@ th, .t-info {
     margin: 0 auto;
     display: inline-block;
     position: absolute;
-    margin-top: 475px;
+    margin-top: 455px;
     margin-left: -165px;
 }
 
