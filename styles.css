@@ -77,10 +77,10 @@ h1 {
 }
 
 #message {
-	height: 100px;
+	height: 83px;
 	position: absolute;
 	margin-left: -123px;
-	margin-top: -84px;
+	margin-top: -90px;
 }
 
 #message:hover {
@@ -277,7 +277,7 @@ th, .t-info {
 	}
 	#wrapper {
 		width: 100%;
-		margin-top: 100px;
+		margin-top: 150px;
 	}
 
 	h1 {
