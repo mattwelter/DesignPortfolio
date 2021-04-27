@@ -12,6 +12,7 @@
 
 .bold {
 	font-family: 'DM Sans Bold', "Arial", sans-serif;
+	color: white !important;
 }
 
 body {
@@ -194,11 +195,11 @@ img {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 17px;
-	letter-spacing: 0.1em;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: #8A8A8A;
 	border-bottom: solid 1.8px #999;
-	padding-bottom: 4px;
+	padding-bottom: 12px;
 }
 
 .t-row {
@@ -206,6 +207,7 @@ img {
 	margin-bottom: 18px;
 	line-height: 28px;
 	display: block;
+	color: #B6BBC1;
 }
 
 th, .t-info {
@@ -219,10 +221,15 @@ th, .t-info {
 .t-link {
 	text-align: right;
 	color: white;
+	color: #B6BBC1;
 	display: inline-block;
 	margin-bottom: 0px;
 }
 
+#workhistory .t-link, #personalprojects .t-link, #uxwork .t-link  {
+	vertical-align: text-top;
+	height: 88px;
+}
 
 #list-of-info {
     margin: 0 auto;
