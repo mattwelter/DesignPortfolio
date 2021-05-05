@@ -195,9 +195,9 @@ img {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 17px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #8A8A8A;
+	color: #9DC628;
 	border-bottom: solid 1.8px #999;
 	padding-bottom: 12px;
 }
@@ -221,7 +221,6 @@ th, .t-info {
 .t-link {
 	text-align: right;
 	color: white;
-	color: #B6BBC1;
 	display: inline-block;
 	margin-bottom: 0px;
 }
